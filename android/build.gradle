@@ -1,4 +1,5 @@
 group 'com.example.changeicon'
+
 version '1.0'
 
 buildscript {
@@ -22,6 +23,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    
+    namespace "com.example.changeicon"
     compileSdkVersion 31
 
     compileOptions {
